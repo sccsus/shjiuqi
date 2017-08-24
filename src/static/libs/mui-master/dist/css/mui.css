@@ -5018,9 +5018,26 @@ body > .mui-progressbar
     font-family: Muiicons;
     font-weight: normal;
     font-style: normal;
+    src: url('../fonts/iconfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: Muiicons;
+    font-weight: normal;
+    font-style: normal;
 
     src: url('../fonts/mui.ttf') format('truetype');
 }
+.icon-gouwuche:before { content: "\f0148"; }
+
+.icon-huiyuan:before { content: "\e65c"; }
+
+.icon-gouwucheman:before { content: "\e501"; }
+
+.icon-chazhao:before { content: "\e610"; }
+
+.icon-shouye:before { content: "\e66f"; }
+
+.icon-gouwuchekong:before { content: "\e502"; }
 .mui-icon
 {
     font-family: Muiicons;

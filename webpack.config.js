@@ -25,7 +25,7 @@ module.exports = {
             },
             {
                 //处理文件
-                test:/\.(jpg|png|svg|ttf)$/,
+                test:/\.(jpg|png|svg|ttf|gif)$/,
                 loader:'url-loader',
                 options:{
                     limit:4096
@@ -43,8 +43,10 @@ module.exports = {
             {
                 test:/\.vue$/,
                 loader:'vue-loader'
-            }
-
+            },
+            {
+            test: /vue-preview.src.*?js$/,
+            loader: 'babel-loader'}
         ]
     },
     plugins:[
